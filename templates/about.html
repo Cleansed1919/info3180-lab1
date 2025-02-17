@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>My Website - About</title>
-</head>
-<body>
-<h1>Shaedane White</h1>
-<p>I am a student of the University of the West Indies, Faculty of Science, Department of Computing</p>
-</body>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+        <meta charset="UTF-8">
+        <title>My Website - About</title>
+    </head>
+    <body>
+        <img src="{{ url_for('static', filename='IMG-20210506-WA0014.jpg')}}" alt="Picture of myself in my graduation garments.">
+        <h1>Shaedane White</h1>
+        <p>I am a student of the University of the West Indies, Faculty of Science, Department of Computing</p>
+    </body>
 </html>
